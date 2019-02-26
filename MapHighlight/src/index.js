@@ -1,5 +1,6 @@
 import './less/main.less';
 import WisconsinMap from './data/wisconsin.json';
+import USA from './data/states.json';
 
 var d3 = require("d3");
 
@@ -25,7 +26,7 @@ function distance(x1,y1,x2,y2){
 
 var projection = d3.geoAlbers()
     .translate([width / 2, height / 2])
-    .scale(2000)
+    .scale(1000)
     .center([0, 45]);
 
 var canvas = d3.select('body')
@@ -56,24 +57,36 @@ function fix_dpi(){
     canvas.node().setAttribute('height', style.height() * dpi);
 }
 
-var Wisconsin = WisconsinMap.features;
+var states = USA.features;
 
+function mapFeature(feature){
+    this.feature = feature;
 
+    this.update = function(){
+        this.draw();
 
-function mapFeature(){
-    
-}
+    }
 
-function init(){
-    Wisconsin.forEach(function(d){
+    this.draw = function(){
         ctx.beginPath();
-        path(d);
-        ctx.fillStyle = '#ff0000';
+        path(this.feature);
+        ctx.fillStyle = 'gray';
         ctx.fill();
         ctx.strokeStyle = '#000000';
         ctx.stroke();
+
+        if(ctx.isPointInPath(mouse.x, mouse.y)){
+            ctx.fillStyle = 'red';
+            ctx.fill();
+        }
+    }
+}
+
+var features = []
+function init(){
+    states.forEach(function(feature){
+       features.push(new mapFeature(feature));
     });
-    
 }
 
 function animate(){
@@ -83,7 +96,10 @@ function animate(){
 
     fix_dpi();
 
-    
+    for(var i = 0; i < features.length; i++){
+        features[i].update();
+    }
 }
 
 init();
+animate();
