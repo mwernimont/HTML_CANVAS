@@ -1,0 +1,283 @@
+{
+    "teams":[
+        {
+          "name": "Anaheim Ducks",
+          "stadium": "Honda Center",
+          "state": "California",
+          "city": "Anaheim",
+          "lat": 33.807896,
+          "lon": -117.876247,
+          "color": "#B9975B"  
+        },
+        {
+            "name": "Arizona Coyotes",
+            "stadium": "Gila River Arena",
+            "state": "Arizona",
+            "city": "Glendale",
+            "lat": 33.532280,
+            "lon": -112.260916 ,
+            "color":"#862633"
+        },
+        {
+            "name": "Boston Bruins",
+            "stadium": "TD Garden",
+            "state": "Massachusetts",
+            "city": "Boston",
+            "lat": 42.366396,
+            "lon": -71.061856,
+            "color": "#F6B11B"
+        },
+        {
+            "name": "Buffalo Sabres",
+            "stadium": "KeyBank Center",
+            "state": "New York",
+            "city": "Buffalo",
+            "lat": 42.875244,
+            "lon": -78.875960,
+            "color": "#041E42"
+        },
+        {
+            "name": "Calgary Flames",
+            "stadium": "Scotiabank Saddledome",
+            "state": "Alberta",
+            "city": "Calgary",
+            "lat": 51.037643,
+            "lon": -114.051044,
+            "color": "#C8102E"
+        },
+        {
+            "name": "Carolina Hurricanes",
+            "stadium": "PNC Arena",
+            "state": "North Carolina",
+            "city": "Raleigh",
+            "lat": 35.803496,
+            "lon": -78.721387,
+            "color": "#C8102E"
+        },
+        {
+            "name": "Chicago Blackhawks",
+            "stadium": "United Center",
+            "state": "Illinois",
+            "city": "Chicago",
+            "lat": 41.880851,
+            "lon": -87.673543,
+            "color": "#C92F47"
+        },
+        {
+            "name": "Colorado Avalanche",
+            "stadium": "Pepsi Center",
+            "state": "Colorado",
+            "city": "Denver",
+            "lat": 39.748792,
+            "lon": -105.007152,
+            "color": "#6F263D" 
+        }, 
+        {
+            "name": "Columbus Blue Jackets",
+            "stadium": "Nationwide Arena",
+            "state": "Ohio",
+            "city": "Columbus" ,
+            "lat": 39.969385,
+            "lon": -83.005276,
+            "color": "#041E42"
+        },
+        {
+            "name": "Dallas Stars",
+            "stadium": "American Airlines Center",
+            "state": "Texas",
+            "city": "Dallas",
+            "lat": 32.790732,
+            "lon": -96.809733,
+            "color": "#1D7556"
+        },
+        {
+            "name": "Detroit Red Wings",
+            "stadium": "Little Caesars Arena",
+            "state": "Michigan",
+            "city": "Detroit",
+            "lat": 42.341181,
+            "lon": -83.054324,
+            "color": "#C8102E" 
+        },
+        {
+            "name": "Edmonton Oilers",
+            "stadium": "Rogers Placer",
+            "state": "Alberta",
+            "city": "Edmonton",
+            "lat": 53.547142,
+            "lon": -113.497565,
+            "color": "#FC4C02" 
+        },
+        {
+            "name": "Florida Panthers",
+            "stadium": "BB&T Center",
+            "state": "Florida",
+            "city": "Sunrise",
+            "lat": 26.160507,
+            "lon": -80.319832,
+            "color": "#B9975B" 
+        },
+        {
+            "name": "Los Angeles Kings",
+            "stadium": "Staples Center",
+            "state": "California",
+            "city": "Los Angeles",
+            "lat": 34.043302,
+            "lon": -118.266632,
+            "color": "#010101"  
+        },
+        {
+            "name": "Minnesota Wild",
+            "stadium": "Xcel Engery Center",
+            "state": "Minnesota",
+            "city": "St. Paul",
+            "lat": 44.945097,
+            "lon": -93.100464,
+            "color": "#005030"
+        },
+        {
+            "name": "Montreal Canadiens",
+            "stadium": "Bell Centre",
+            "state": "Quebec",
+            "city": "Montreal",
+            "lat": 45.496240,
+            "lon": -73.568951,
+            "color": "#A6192E"
+        },
+        {
+            "name": "Nashville Predators",
+            "stadium": "Bridgestone Arena",
+            "state": "Tennessee",
+            "city": "Nashville",
+            "lat": 36.159390,
+            "lon": -86.777927,
+            "color": "#FFB81C"  
+        },
+        {
+            "name": "New Jersey Devils",
+            "stadium": "Prudential Center",
+            "state": "New Jersey",
+            "city": "Newark",
+            "lat": 40.780687,
+            "lon": -74.043183,
+            "color": "#C8102E" 
+        },
+        {
+            "name": "New York Islanders",
+            "stadium": "Barclays Center",
+            "state": "New York",
+            "city": "Brooklyn",
+            "lat": 40.682894,
+            "lon": -73.974812,
+            "color": "#FC4C02"  
+        },
+        {
+            "name": "New York Rangers",
+            "stadium": "Madison Square Garden",
+            "state": "New York",
+            "city": "New York",
+            "lat": 40.750618,
+            "lon": -73.992988,
+            "color": "#0033A0"
+        },
+        {
+            "name": "Ottawa Senators",
+            "stadium": "Canadian Tire Centre",
+            "state": "Ontario",
+            "city": "Ottawa",
+            "lat": 45.297179,
+            "lon": -75.926276,
+            "color": "#C69214"  
+        },
+        {
+            "name": "Philedalphia Flyers",
+            "stadium": "Wells Fargo Center",
+            "state": "Pennsylvania",
+            "city": "Philadelphia",
+            "lat": 39.901284,
+            "lon": -75.171443,
+            "color": "#FA4616" 
+        },
+        {
+            "name": "Pittsburgh Penguins",
+            "stadium": "PPG Paints Arena",
+            "state": "Pennsylvania",
+            "city": "Pittsburgh",
+            "lat": 40.439789,
+            "lon": -79.988544,
+            "color": "#FFB81C"
+        },
+        {
+            "name": "San Jose Sharks",
+            "stadium": "SAP Center",
+            "state": "California",
+            "city": "San Jose",
+            "lat": 37.333015,
+            "lon": -121.900419,
+            "color": "#006272"
+        },
+        {
+            "name": "St. Louis Blues",
+            "stadium": "Enterprise Center",
+            "state": "Missouri",
+            "city": "St. Louis",
+            "lat": 38.626983,
+            "lon": -90.202077,
+            "color": "#003087"
+        },
+        {
+            "name": "Tampa Bay Lightning",
+            "stadium": "Amaile Arena",
+            "state": "Florida",
+            "city": "Tampa Bay",
+            "lat": 27.942889,
+            "lon": -82.451359,
+            "color": "#00205B"
+        },
+        {
+            "name": "Toronto Maple Leafs",
+            "stadium": "Scotiabank Arena",
+            "state": "Ontario",
+            "city": "Toronto",
+            "lat": 43.643738,
+            "lon": -79.378573,
+            "color": "#00205B"
+        },
+        {
+            "name": "Vancouver Canucks",
+            "stadium": "Rogers Arena",
+            "state": "British Columbia",
+            "city": "Vancouver",
+            "lat": 49.277941,
+            "lon": -123.108254,
+            "color": "#041C2C"
+        },
+        {
+            "name": "Vegas Golden Knights",
+            "stadium": "T-Mobile Arena",
+            "state": "Nevada",
+            "city": "Las Vegas",
+            "lat": 36.103050,
+            "lon": -115.177885,
+            "color": "#B9975B"
+        },
+        {
+            "name": "Washington Capitals",
+            "stadium": "Capital One Arena",
+            "state": "District of Columbia",
+            "city": "Washington",
+            "lat": 38.898217,
+            "lon": -77.019979,
+            "color": "#112A4C"
+        },
+        {
+            "name": "Winnipeg Jets",
+            "stadium": "Bell MTS Place",
+            "state": "Manitoba",
+            "city": "Winnipeg",
+            "lat": 49.892802,
+            "lon": -97.143207,
+            "color": "#A4192E"
+        }
+    ]
+}

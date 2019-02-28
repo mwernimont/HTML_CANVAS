@@ -1,0 +1,47 @@
+@background: rgb(254,254,254);
+@width: 1000;
+@height: 600;
+
+body{
+    background: @background;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tooltip,
+.map{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.map{
+    z-index: 0 
+}
+
+.tooltip{
+    z-index: 1
+}
+
+#explanation{
+    width:@width;
+    margin: 0 auto;
+
+    h3{
+        margin-bottom: 5px;
+    }
+}
+
+.map{
+    fill: rgb(210,210,210);
+    stroke: rgb(90,90,90);
+}
+
+#teamName{
+    position: absolute;
+    background: rgb(230,230,230);
+    padding: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+}
